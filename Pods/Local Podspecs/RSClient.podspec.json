@@ -1,0 +1,36 @@
+{
+  "name": "RSClient",
+  "version": "0.1.15",
+  "summary": "Network client to handle all the remote service APIs.",
+  "description": "This is single source for Network manager which handles all the API's. Soon it will be pushed into all the projects.",
+  "homepage": "https://bitbucket.org/ymedialabs/rsclient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pavan": "pavan.itagi@ymedialabs.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/ymedialabs/rsclient.git",
+    "tag": "0.1.15"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.2"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "RSClient/Classes/*",
+    "RSClient/Classes/**/*",
+    "RSClient/Classes/**/**/*",
+    "RSClient/Localized_Strings/*"
+  ],
+  "dependencies": {
+    "RealmSwift": [
+
+    ]
+  }
+}

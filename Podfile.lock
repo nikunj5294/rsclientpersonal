@@ -1,0 +1,29 @@
+PODS:
+  - Realm (3.11.1):
+    - Realm/Headers (= 3.11.1)
+  - Realm/Headers (3.11.1)
+  - RealmSwift (3.11.1):
+    - Realm (= 3.11.1)
+  - RSClient (0.1.15):
+    - RealmSwift
+
+DEPENDENCIES:
+  - RSClient (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  RSClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
+  RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
+  RSClient: badab5692e055195500f95e48d6849fefb701bf2
+
+PODFILE CHECKSUM: 349d3301b9dc459202e2f34e684336048d2a348e
+
+COCOAPODS: 1.6.1

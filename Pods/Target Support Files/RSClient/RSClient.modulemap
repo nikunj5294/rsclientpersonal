@@ -1,0 +1,6 @@
+framework module RSClient {
+  umbrella header "RSClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
